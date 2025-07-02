@@ -3,8 +3,8 @@
 
 
 # how to write string 
-name = "peter"
-age = "20"
+# name = "peter"
+# age = "20"
 
 # String bhitra garna sakine kam 
 
@@ -44,27 +44,39 @@ age = "20"
 
 # exercise
 
-x = "Nepal"
-print(len(x))
+# x = "Nepal"
+# print(len(x))
 
-msg = "hello world"
-print(msg.upper())
+# msg = "hello world"
+# print(msg.upper())
 
-word = "python"
-print(word[2])
-
-
-# chat gpt 
-msg = "Thank you "
-print(msg.replace("love", "like"))
-
-# me 
-msg = "I love Python"
-print(msg.replace("love", "like"))
-
-msg = "I love Python"
-print(msg.replace("love", "like"))
+# word = "python"
+# print(word[2])
 
 
-msg = "I love Python"
-print(msg.replace("love", "like"))
+# # chat gpt 
+# msg = "Thank you "
+# print(msg.replace("love", "like"))
+
+# # me 
+# msg = "I love Python"
+# print(msg.replace("love", "like"))
+
+# msg = "I love Python"
+# print(msg.replace("love", "like"))
+
+
+# msg = "I love Python"
+# print(msg.replace("love", "
+
+
+# name = input("Enter your name")
+# age = input("Enter your age")
+
+# print(f"Hello Guys, My name is {name}. I am {age} year Old")
+
+
+letter = '''Dear <|Name|>, 
+        You are selected! 
+             <|Date|> '''
+print(letter.replace("<|Name|>", "Rajesh") .replace("<|Date|>", "15 September"))

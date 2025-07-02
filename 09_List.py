@@ -42,10 +42,17 @@
 # print(names)
 # Output: ["Ram", "Gita", "Sita", "Hari"]
 
-name = ["raj","sam","har","sita"]
-name.append("den")
-name.insert(2,"dem")
-print(name)
+# name = ["raj","sam","har","sita"]
+# name.append("den")
+# name.insert(2,"dem")
+# print(name)
 
+
+l1 = [20, 30, 40, 50, 10]
+# l1.sort()
+# l1.reverse()
+# l1.append("70")
+l1.insert(2,"harry")
+print(l1)
 
 
